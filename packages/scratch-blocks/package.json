@@ -1,0 +1,19 @@
+{
+  "name": "scratch-blocks",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Andrew Miracle <me@andrewmiracle.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/scratch-blocks.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/scratch-blocks.test.js"
+  }
+}
