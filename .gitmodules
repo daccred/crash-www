@@ -1,0 +1,9 @@
+[submodule "gui"]
+	path = gui
+	url = https://github.com/buildafrica/scalez-gui.git
+[submodule "runtime"]
+	path = runtime
+	url = https://github.com/buildafrica/scalez-runtime.git
+[submodule "blocks"]
+	path = blocks
+	url = https://github.com/buildafrica/scalez-blocks.git
