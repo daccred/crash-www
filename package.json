@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-       "preinstall": "npx only-allow yarn"
+       "preinstall": "npx only-allow yarn",
+       "build": "yarn lerna run build",
+       "test": "yarn lerna run test"
   },
   "devDependencies": {
     "lerna": "^8.1.3",
