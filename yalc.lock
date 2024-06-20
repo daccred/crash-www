@@ -1,4 +1,18 @@
 {
   "version": "v1",
-  "packages": {}
+  "packages": {
+    "scalez-runtime": {
+      "signature": "0484111e4cd5347a29dfb834f89c2305",
+      "file": true
+    },
+    "scalez-gui": {
+      "signature": "89184c390d1500483efb4558f7c16459",
+      "file": true,
+      "replaced": "^4.0.532"
+    },
+    "scalez-blocks": {
+      "signature": "7e1acaba8a42878085ca56294b1dc443",
+      "file": true
+    }
+  }
 }

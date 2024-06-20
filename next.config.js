@@ -7,6 +7,11 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
+  // webpack: (config, { isServer }) => {
+  //   // Custom webpack configuration here if needed
+  //   config.externals = [...config.externals, "scalez-gui"];
+  //   return config;
+  // },
 
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
@@ -17,7 +22,7 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  transpilePackages: ["geist"],
+  transpilePackages: ["geist", "scalez-gui"],
 };
 
 export default config;
