@@ -18,6 +18,7 @@ import {AppStateHOC, HashParserHOC, setAppElement } from 'scalez-gui/src/index'
 //     const WrappedBrowserModalComponent = AppStateHOC(BrowserModalComponent, true /* localesOnly */);
 
 const EnhancedGUI = compose(
+  
   AppStateHOC,
   HashParserHOC
 )(GUI)
