@@ -1,12 +1,12 @@
-[submodule "gui"]
-	path = gui
-	url = https://github.com/daccred/crash-gui.git
-[submodule "runtime"]
-	path = runtime
-	url = https://github.com/daccred/crash-runtime.git
 [submodule "blocks"]
 	path = blocks
 	url = https://github.com/daccred/crash-blocks.git
 [submodule "starkvm"]
 	path = starkvm
 	url = https://github.com/daccred/crash-starkvm.git
+[submodule "ui"]
+	path = ui
+	url = https://github.com/daccred/crash-gui.git
+[submodule "block"]
+	path = block
+	url = https://github.com/daccred/crash-blocks.git
