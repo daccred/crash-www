@@ -5,6 +5,23 @@
 CRASH is a learning platform inspired by MIT Scratch, designed to teach kids blockchain technology and programming using Cairo on the StarkNet blockchain. It aims to make blockchain and smart contract development accessible and engaging for young learners.
 
 
+## Crypto User Base
+
+Currently, there are about 200 million crypto users globally. However, this number represents a small fraction of the potential user base when considering the total global population of over 9 billion people. The challenge lies in expanding this base by targeting new demographics, particularly younger, digitally savvy individuals who are not yet engaged with blockchain technology.
+
+## Digitally Savvy Population
+A recent survey by KuCoin found that 88% of young adults are eager to pursue careers in the blockchain space, with 75% showing high interest in the Web3 sector. Despite this interest, only 15% possess more than three years of experience in blockchain, indicating a significant gap in blockchain education and expertise among young people.
+
+> Blockchain education initiatives take off amid crypto bull market
+> [Read more](https://cointelegraph.com/news/blockchain-education-initiatives-crypto-bull-market)
+
+## MIT Scratch Program
+The MIT Scratch program, which CRASH is inspired by, has successfully taught over [230 million kids](https://scratch.mit.edu/annual-report) how to code. This demonstrates the effectiveness and scalability of interactive and user-friendly coding education platforms.
+
+> Blockchain in Education
+> [Read more](https://www.businessresearchinsights.com/market-reports/blockchain-in-education-market-102379)
+
+
 
 ### Learning Use cases
 
