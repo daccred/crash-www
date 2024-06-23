@@ -1,6 +1,6 @@
-[submodule "blocks"]
-	path = blocks
-	url = https://github.com/daccred/crash-blocks.git
+[submodule "runtime"]
+	path = runtime
+	url = https://github.com/daccred/crash-runtime.git
 [submodule "starkvm"]
 	path = starkvm
 	url = https://github.com/daccred/crash-starkvm.git
