@@ -1,9 +1,12 @@
 [submodule "gui"]
 	path = gui
-	url = https://github.com/buildafrica/scalez-gui.git
+	url = https://github.com/daccred/crash-gui.git
 [submodule "runtime"]
 	path = runtime
-	url = https://github.com/buildafrica/scalez-runtime.git
+	url = https://github.com/daccred/crash-runtime.git
 [submodule "blocks"]
 	path = blocks
-	url = https://github.com/buildafrica/scalez-blocks.git
+	url = https://github.com/daccred/crash-blocks.git
+[submodule "starkvm"]
+	path = starkvm
+	url = https://github.com/daccred/crash-starkvm.git
