@@ -1,29 +1,56 @@
-# Create T3 App
+# Crash
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+![alt text](image.png)
 
-## What's next? How do I make an app with this?
+CRASH is a learning platform inspired by MIT Scratch, designed to teach kids blockchain technology and programming using Cairo on the StarkNet blockchain. It aims to make blockchain and smart contract development accessible and engaging for young learners.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Learning Use cases
 
-## Learn More
+1. Sharing Secrets Safely:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+```sratch
+Two sprites want to share a secret message. They use a simple code to encrypt it
+before sending it across the screen.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Script
+when green flag clicked
+ask [Enter your secret message:] and wait
+set [secret message] to (answer)
+set [coded message] to []
+replace item (1) of [secret message] with [A]
+replace item (2) of [secret message] with [B]
+say (coded message)
 
-## How do I deploy this?
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Narrative:
+"Whispering Willow and Chatterbox Chipmunk want to share a secret. But they don't want
+anyone else to know! They use a special code to change their message. Can you help them
+create the code and send their secret message safely?"
+
+
+2. The Honest Ledger:
+
+```scratch
+Sprites represent friends sharing toys. A simple list (the "ledger") keeps track of who
+has which toy.
+
+# Script
+when green flag clicked
+set [ledger v] to [Emily has the ball, Ben has the car]
+when this sprite clicked
+ask [Who has which toy?] and wait
+add (answer) to [ledger v]
+say (ledger)
+
+```
+
+Narrative:
+
+"Lily, Max, and Sophie love to share their toys. They use a special list called a ledger to
+remember who has what. Can you help them update the ledger when they trade toys? This is like how a blockchain keeps track of thing!
+
+
